@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1024" height="1024" viewBox="0 0 1024 1024" role="img" aria-labelledby="title desc">
+  <title id="title">DIAL — six-key radio app icon</title>
+  <desc id="desc">A black radio receiver with a circular speaker, six preset buttons and a diagonal antenna on a mint background.</desc>
+  <defs>
+    <mask id="radio-cutouts" maskUnits="userSpaceOnUse" x="0" y="0" width="1024" height="1024">
+      <rect width="1024" height="1024" fill="white"/>
+      <g fill="black">
+        <circle cx="322" cy="584" r="168"/>
+        <rect x="525" y="415" width="350" height="49" rx="20"/>
+        <circle cx="582" cy="561" r="41"/>
+        <circle cx="701" cy="561" r="41"/>
+        <circle cx="819" cy="561" r="41"/>
+        <circle cx="582" cy="683" r="41"/>
+        <circle cx="701" cy="683" r="41"/>
+        <circle cx="819" cy="683" r="41"/>
+      </g>
+    </mask>
+  </defs>
+  <rect width="1024" height="1024" fill="#29EEAC"/>
+  <g fill="#0F0F0F">
+    <path d="M255 348 623 165" fill="none" stroke="#0F0F0F" stroke-width="44" stroke-linecap="round"/>
+    <circle cx="635" cy="160" r="39"/>
+    <rect x="172" y="790" width="87" height="50" rx="16"/>
+    <rect x="766" y="790" width="87" height="50" rx="16"/>
+    <rect x="101" y="341" width="822" height="472" rx="80" mask="url(#radio-cutouts)"/>
+  </g>
+</svg>

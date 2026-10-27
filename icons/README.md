@@ -4,6 +4,8 @@
 
 ![Six-key radio](b-six-key-radio.png)
 
+[Download the editable vector SVG](b-six-key-radio.svg) — 1024 × 1024 viewBox, flat vector shapes, no embedded raster image.
+
 A black radio receiver on a bright mint background. The receiver silhouette communicates radio, and the six buttons connect to DIAL's six preset stations. Hypothesis: clearer category recognition and a more visible color field can help attract relevant visitors. Risk: a familiar radio silhouette may be less distinctive among radio utilities.
 
 ## A — tuning dial: brand-oriented alternative

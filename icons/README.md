@@ -1,5 +1,13 @@
 # DIAL — two app icon concepts
 
+## Modern dimensional receiver
+
+![Modern dimensional radio receiver](b-six-key-radio-modern.png)
+
+[Download PNG](b-six-key-radio-modern.png) · [Download editable SVG](b-six-key-radio-modern.svg)
+
+The 1024 × 1024 PNG is exported directly from the SVG. The vector artwork uses gradients and shadows for a graphite housing, a recessed speaker, six raised mint buttons and a glass tuner display. No raster image is embedded in the SVG. The original flat icon is preserved below.
+
 ## B — six-key radio: recommended first test
 
 ![Six-key radio](b-six-key-radio.png)

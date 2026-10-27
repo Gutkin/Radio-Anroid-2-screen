@@ -1,0 +1,129 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1024" height="1024" viewBox="0 0 1024 1024" role="img" aria-labelledby="title desc">
+  <title id="title">DIAL — dimensional six-key radio</title>
+  <desc id="desc">A graphite radio receiver with dimensional mint preset buttons, a recessed speaker, a glass tuning display and a metallic antenna on a mint background.</desc>
+  <defs>
+    <radialGradient id="background" cx="35%" cy="22%" r="95%">
+      <stop stop-color="#53FFD0"/>
+      <stop offset=".55" stop-color="#23EFB3"/>
+      <stop offset="1" stop-color="#0ED79F"/>
+    </radialGradient>
+    <linearGradient id="housing" x1="0" y1="0" x2=".65" y2="1" gradientUnits="objectBoundingBox">
+      <stop stop-color="#727C7B"/>
+      <stop offset=".10" stop-color="#343C3D"/>
+      <stop offset=".46" stop-color="#252C2E"/>
+      <stop offset=".82" stop-color="#141C1D"/>
+      <stop offset="1" stop-color="#091413"/>
+    </linearGradient>
+    <linearGradient id="edge" x1="0" y1="0" x2=".45" y2="1">
+      <stop stop-color="#C5D9D4"/>
+      <stop offset=".23" stop-color="#677975"/>
+      <stop offset=".65" stop-color="#182B27"/>
+      <stop offset="1" stop-color="#061A14"/>
+    </linearGradient>
+    <linearGradient id="antenna" x1="0" y1="0" x2="0" y2="1">
+      <stop stop-color="#101C1D"/>
+      <stop offset=".22" stop-color="#BCCBCA"/>
+      <stop offset=".42" stop-color="#57686A"/>
+      <stop offset=".75" stop-color="#131F21"/>
+      <stop offset="1" stop-color="#061310"/>
+    </linearGradient>
+    <radialGradient id="antenna-cap" cx="32%" cy="20%" r="82%">
+      <stop stop-color="#DDE8E7"/>
+      <stop offset=".24" stop-color="#66767A"/>
+      <stop offset=".60" stop-color="#242F33"/>
+      <stop offset="1" stop-color="#071411"/>
+    </radialGradient>
+    <radialGradient id="surround" cx="39%" cy="26%" r="75%">
+      <stop stop-color="#5C6565"/>
+      <stop offset=".25" stop-color="#242D2E"/>
+      <stop offset=".48" stop-color="#11191A"/>
+      <stop offset=".70" stop-color="#414B4A"/>
+      <stop offset=".86" stop-color="#1D2627"/>
+      <stop offset="1" stop-color="#070D0D"/>
+    </radialGradient>
+    <radialGradient id="button" cx="30%" cy="18%" r="86%">
+      <stop stop-color="#C0FFEA"/>
+      <stop offset=".22" stop-color="#61FFD2"/>
+      <stop offset=".55" stop-color="#11EAB0"/>
+      <stop offset=".82" stop-color="#00B98D"/>
+      <stop offset="1" stop-color="#007B61"/>
+    </radialGradient>
+    <linearGradient id="glass" x1="0" y1="0" x2="0" y2="1">
+      <stop stop-color="#A6FFE2"/>
+      <stop offset=".18" stop-color="#36F5BD"/>
+      <stop offset=".48" stop-color="#00AD80"/>
+      <stop offset=".83" stop-color="#00D79D"/>
+      <stop offset="1" stop-color="#67FFD2"/>
+    </linearGradient>
+    <linearGradient id="glass-shine" x1="0" y1="0" x2="0" y2="1">
+      <stop stop-color="white" stop-opacity=".65"/>
+      <stop offset="1" stop-color="white" stop-opacity="0"/>
+    </linearGradient>
+    <filter id="ground-shadow" x="-.3" y="-2" width="1.6" height="5">
+      <feGaussianBlur stdDeviation="12"/>
+    </filter>
+    <filter id="body-shadow" x="-.12" y="-.12" width="1.3" height="1.4">
+      <feGaussianBlur in="SourceAlpha" stdDeviation="13" result="blur"/>
+      <feOffset in="blur" dy="14" result="offset"/>
+      <feFlood flood-color="#004A36" flood-opacity=".4" result="color"/>
+      <feComposite in="color" in2="offset" operator="in" result="shadow"/>
+      <feMerge><feMergeNode in="shadow"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <filter id="control-shadow" x="-.4" y="-.4" width="1.8" height="2">
+      <feGaussianBlur in="SourceAlpha" stdDeviation="3" result="blur"/>
+      <feOffset in="blur" dy="4" result="offset"/>
+      <feFlood flood-color="#000000" flood-opacity=".65" result="color"/>
+      <feComposite in="color" in2="offset" operator="in" result="shadow"/>
+      <feMerge><feMergeNode in="shadow"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <g id="preset">
+      <circle r="47" fill="#071210" stroke="#3A5C51" stroke-width="1.5"/>
+      <circle r="42" fill="url(#button)" stroke="#33F3BD" stroke-width="1.5"/>
+      <path d="M-28-20 A34 34 0 0 1 16-31" fill="none" stroke="#E8FFF6" stroke-opacity=".85" stroke-width="4" stroke-linecap="round"/>
+      <path d="M-26 29 A38 38 0 0 0 27 25" fill="none" stroke="#00E5AB" stroke-opacity=".6" stroke-width="2" stroke-linecap="round"/>
+    </g>
+  </defs>
+  <rect width="1024" height="1024" fill="url(#background)"/>
+  <ellipse cx="515" cy="843" rx="381" ry="21" fill="#005B40" opacity=".48" filter="url(#ground-shadow)"/>
+  <g transform="translate(251 337) rotate(-29)">
+    <rect x="0" y="-20" width="440" height="40" rx="20" fill="url(#antenna)" stroke="#0A201A" stroke-width="2"/>
+    <path d="M30-14 H399" stroke="#E3FFEF" stroke-opacity=".5" stroke-width="3" stroke-linecap="round"/>
+    <rect x="-10" y="-24" width="58" height="48" rx="13" fill="url(#antenna)" stroke="#597770" stroke-width="2"/>
+    <circle cx="438" cy="0" r="40" fill="url(#antenna-cap)" stroke="#1A3C30" stroke-width="2"/>
+  </g>
+  <g fill="url(#housing)" stroke="#091D16" stroke-width="3">
+    <rect x="164" y="787" width="94" height="56" rx="17"/>
+    <rect x="767" y="787" width="94" height="56" rx="17"/>
+  </g>
+  <g filter="url(#body-shadow)">
+    <rect x="96" y="336" width="832" height="478" rx="83" fill="url(#housing)" stroke="#142B24" stroke-width="3"/>
+    <rect x="103" y="342" width="818" height="464" rx="77" fill="none" stroke="url(#edge)" stroke-width="5"/>
+    <path d="M118 409 Q124 352 183 350 H839 Q888 350 906 392" fill="none" stroke="#E6F3ED" stroke-opacity=".32" stroke-width="3" stroke-linecap="round"/>
+    <path d="M130 771 Q146 797 183 797 H845 Q882 797 899 772" fill="none" stroke="#3CE1AB" stroke-opacity=".10" stroke-width="4" stroke-linecap="round"/>
+  </g>
+  <g>
+    <circle cx="320" cy="584" r="183" fill="#101818" stroke="#88958F" stroke-width="2"/>
+    <circle cx="320" cy="584" r="173" fill="url(#surround)"/>
+    <circle cx="320" cy="584" r="148" fill="url(#surround)" stroke="#151F1E" stroke-width="3"/>
+    <circle cx="320" cy="584" r="125" fill="url(#surround)" stroke="#26322F" stroke-width="3"/>
+    <circle cx="320" cy="584" r="104" fill="url(#surround)" stroke="#111C18" stroke-width="4"/>
+    <circle cx="320" cy="584" r="80" fill="#071F17" stroke="#1F7257" stroke-width="2"/>
+    <circle cx="320" cy="584" r="66" fill="url(#button)" stroke="#069C77" stroke-width="3"/>
+    <path d="M273 556 A57 57 0 0 1 340 533" fill="none" stroke="#D4FFED" stroke-opacity=".55" stroke-width="5" stroke-linecap="round"/>
+  </g>
+  <g>
+    <rect x="516" y="408" width="367" height="72" rx="36" fill="#071811" stroke="#486A5B" stroke-width="2"/>
+    <rect x="525" y="416" width="350" height="55" rx="27" fill="url(#glass)" stroke="#00ECA8" stroke-width="2"/>
+    <rect x="531" y="421" width="337" height="23" rx="12" fill="url(#glass-shine)"/>
+    <path d="M543 422 H848" stroke="#C7FFE8" stroke-opacity=".65" stroke-width="2" stroke-linecap="round"/>
+    <rect x="792" y="419" width="12" height="48" rx="6" fill="#E5FFF7"/>
+  </g>
+  <g filter="url(#control-shadow)">
+    <use xlink:href="#preset" transform="translate(581 561)"/>
+    <use xlink:href="#preset" transform="translate(703 561)"/>
+    <use xlink:href="#preset" transform="translate(823 561)"/>
+    <use xlink:href="#preset" transform="translate(581 683)"/>
+    <use xlink:href="#preset" transform="translate(703 683)"/>
+    <use xlink:href="#preset" transform="translate(823 683)"/>
+  </g>
+</svg>
